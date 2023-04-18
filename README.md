@@ -9,12 +9,12 @@ First build a virtual environment::
     python -m venv venv
 
 You now have a folder ``venv`` containing the empty python virtual environment. Now
-populate the ``venv`` folder using your newly created environment with the required libraries for development (this command is for windows, if you use linux then change the paths appropriately)::
+populate the ``venv`` folder using your newly created environment with the required libraries for development (this command is for windows, if you use linux then change the paths appropriately):
 
     .\\venv\\Scripts\\pip install -r .\\requirements.txt
 
 
-To run the standalone data extractor you can use a commandline like this::
+To run the standalone data extractor you can use a commandline like this:
 
     .\\venv\\Scripts\\python.exe extract_austevoll.py --directory_path=.\\data\\Austevoll_Nord
 	
